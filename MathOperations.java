@@ -37,7 +37,9 @@ public class MathOperations{
 
         // Ternary Operator
 
-        int age = 18;
+        System.out.println("Enter your age");
+        int age = scan.nextInt();
+        
         String result = (age >= 18) ? "Adult" : "Minor";
         System.out.println("Age " + age + " is: " + result);
 
