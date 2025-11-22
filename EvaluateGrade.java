@@ -8,6 +8,6 @@ public class EvaluateGrade{
         System.out.println("Enter your marks");
         int grade = scan.nextInt();
         
-        String result = (grade >= 40) ? "\tPass" : "\nFail";
+        String result = (grade >= 40) ? "\tPass" : "\nFail"; // \t and \n as escape sequence
         }
     }
